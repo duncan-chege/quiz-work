@@ -6,6 +6,7 @@ $(document).ready(function(){
     var opValue=parseInt($('input[name=op]:checked').val());
     var arrayValue=parseInt($('input[name=array]:checked').val());
 
+    //testing form validation using length method
     var mValidate=$("input[name=method]:checked").length;
     var dValidate=$("input[name=diff]:checked").length;
     var tValidate=$("input[name=type]:checked").length;
@@ -13,15 +14,18 @@ $(document).ready(function(){
     var aValidate=$("input[name=array]:checked").length;
 
     var answer= methodValue + diffValue + typeValue + opValue + arrayValue;
-    //testing form validation using length method
+
     if(mValidate<1 || dValidate<1 || tValidate<1 || oValidate<1 || aValidate<1){
-        $('.output').html("Input answers");
+        $('.output').html("<b>Input answers</b>");
     }else if(answer>0){
       $('.output').html("<b>You have scored: " +answer+ "%</b>");
     }else {
       $('.output').html("<b>You have failed</b>");
     }
 
-  $(".well").show();
+  // $(".well").toggle();
+  // $("#bck").toggle();
+  // $("#sub").toggle();
+  $(".panel").toggle();
   });
 });
