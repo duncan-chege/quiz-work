@@ -25,7 +25,7 @@ $(document).ready(function(){
 
   // $(".well").toggle();
   // $("#bck").toggle();
-  // $("#sub").toggle();
-  $(".panel").toggle();
+  $("#sub").toggle();
+//  $(".panel").toggle();
   });
 });
