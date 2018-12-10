@@ -1,8 +1,8 @@
-/* html,body{
+html,body{
   background: linear-gradient(#14AE76,#60E6B5) no-repeat;
   height: 100%;
   margin:0;
-} */
+}
 .container{
   margin-left: 0;
 }
@@ -31,9 +31,9 @@
   position: relative;
   margin-left: 36em;
 }
-/* #sub{
+#sub{
   margin: 0;
-} */
+}
 #bck{
   margin: 0;
   display: none;
