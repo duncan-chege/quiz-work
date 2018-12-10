@@ -24,8 +24,8 @@ $(document).ready(function(){
     }
 
   // $(".well").toggle();
-  // $("#bck").toggle();
-  $("#sub").toggle();
+   $("#bck").toggle();
+  //$("#sub").toggle();
 //  $(".panel").toggle();
   });
 });
