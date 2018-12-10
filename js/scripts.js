@@ -23,8 +23,8 @@ $(document).ready(function(){
       $('.output').html("<b>You have failed</b>");
     }
 
-  // $(".well").toggle();
-   $("#bck").toggle();
+  $(".well").toggle();
+   //$("#bck").toggle();
   //$("#sub").toggle();
 //  $(".panel").toggle();
   });
