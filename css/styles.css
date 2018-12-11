@@ -1,7 +1,14 @@
 html,body{
-  background: linear-gradient(#14AE76,#60E6B5) no-repeat;
+  background: linear-gradient(#ADACAE,#E0DEE1) no-repeat;
   height: 100%;
   margin:0;
+}
+.h-title{
+  color: #e7ff00;
+  font-weight: bold;
+}
+.details{
+  color: #0e7524;
 }
 .container{
   margin-left: 0;
