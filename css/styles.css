@@ -1,10 +1,9 @@
-html,body{
-  background: linear-gradient(#ADACAE,#E0DEE1) no-repeat;
-  height: 100%;
+body{
+  background: linear-gradient(#ADACAE,#E0DEE1) no-repeat fixed;
   margin:0;
 }
 .h-title{
-  color: #e7ff00;
+  color: #feff02;
   font-weight: bold;
 }
 .details{
