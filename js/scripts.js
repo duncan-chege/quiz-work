@@ -16,16 +16,16 @@ $(document).ready(function(){
     var answer= methodValue + diffValue + typeValue + opValue + arrayValue;
 
     if(mValidate<1 || dValidate<1 || tValidate<1 || oValidate<1 || aValidate<1){
-        $('.output').html("<b>Input answers</b>");
+        $('.output').html("<b>Fill in the blanks!</b>");
     }else if(answer>0){
       $('.output').html("<b>You have scored: " +answer+ "%</b>");
     }else {
       $('.output').html("<b>You have failed</b>");
     }
 
-  $(".well").toggle();
-   //$("#bck").toggle();
-  //$("#sub").toggle();
-//  $(".panel").toggle();
+$(".well").toggle();
+$("#bck").toggle();
+$("#sub").toggle();
+$(".panel").toggle();
   });
 });
